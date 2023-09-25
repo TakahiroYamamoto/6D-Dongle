@@ -1,0 +1,42 @@
+PHOTRON DONGLE LICENSE DEFINITION									
+VERSION	9_9								
+comment			comma delimiter						
+PRODUCT-HEADER	id	name	features	valid_for_dongle					
+PRODUCT	2	PFA	1	No					
+PRODUCT	3	PFV4 NI DAQ	2	Yes					
+PRODUCT	4	PFA trial	1	No					
+PRODUCT	5	6D MARKER Analyst	3	Yes					
+PRODUCT	6	6D MARKER Analyst Network	"3,4"	Yes					
+PRODUCT	7	6D MARKER SDK	5	Yes					
+PRODUCT	8	Next Navi 3D Producer	6	No					
+PRODUCT	9	Next Navi 3D Navigator	7	No					
+PRODUCT	10	PFV4 Mobile	8	Yes					
+PRODUCT	11	Next Navi 3D Producer Lite	9	Yes					
+PRODUCT	12	Next Navi 3D Producer Standard	10	Yes					
+PRODUCT	13	Next Navi 3D Producer Network	11	Yes					
+PRODUCT	14	Next Navi 3D Navigator Lite	12	Yes					
+PRODUCT	15	Next Navi 3D Navigator Standard	13	Yes					
+PRODUCT	16	Next Navi 3D Navigator Network	14	Yes					
+PRODUCT	100	Priod None	100	Yes					
+PRODUCT	101	Priod Date	101	Yes					
+PRODUCT	102	Priod Days	102	Yes					
+comment						max # of concurrenty			
+comment			Yes/No	Yes/No	Yes/No	0=Unlimited	Per Station/Per Process/Per Login	Yes/No	None/Date/Days=days
+FEATURE-HEADER	id	name	valid_for_dongle	remote_desktop_access	concurrency	concurrency_count	concurrency_count_criteria	concurrency_network_access	period
+FEATURE	1	Simple tracking	No	No	No	0	Per Station	No	None
+FEATURE	2	PFV4 NI DAQ	Yes	No	No	0	Per Station	No	None
+FEATURE	3	6D Marker Analyst	Yes	No	No	0	Per Station	No	None
+FEATURE	4	6D Marker Analyst Network	Yes	No	No	0	Per Station	No	None
+FEATURE	5	6D Marker SDK	Yes	No	No	0	Per Station	No	None
+FEATURE	6	Next Navi 3D Producer	Yes	No	No	0	Per Station	No	None
+FEATURE	7	Next Navi 3D Navigator	Yes	No	No	0	Per Station	No	None
+FEATURE	8	PFV4 Mobile	Yes	No	No	0	Per Station	No	None
+FEATURE	9	Next Navi 3D Producer Lite	Yes	No	No	0	Per Station	No	None
+FEATURE	10	Next Navi 3D Producer Standard	Yes	No	No	0	Per Station	No	None
+FEATURE	11	Next Navi 3D Producer Network	Yes	No	No	0	Per Station	No	None
+FEATURE	12	Next Navi 3D Navigator Lite	Yes	No	No	0	Per Station	No	None
+FEATURE	13	Next Navi 3D Navigator Standard	Yes	No	No	0	Per Station	No	None
+FEATURE	14	Next Navi 3D Navigator Network	Yes	No	No	0	Per Station	No	None
+FEATURE	100	Priod_None	Yes	Yes	No	0	Per Station	No	None
+FEATURE	101	Priod_Date	Yes	Yes	No	0	Per Station	No	Date
+FEATURE	102	Priod_Days	Yes	Yes	No	0	Per Station	No	Days=1
