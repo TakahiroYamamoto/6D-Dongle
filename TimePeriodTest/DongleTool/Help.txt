@@ -1,0 +1,48 @@
+＜概要＞
+ドングルのライセンス状態を更新するには以下の手順が必要になります。
+1) 本ツールにより、更新が必要なドングルからC2Vファイルを作成します。
+2) C2Vファイルを販売店に送ります。
+3) 販売店からV2Cファイルを受け取ります。
+4) 本ツールにより、C2Vファイルを作ったときと同じドングルにV2Cファイルを書き込みます。
+
+＜C2Vファイルの作成＞
+1) [Create C2V]タブを選択します。
+2) [Enumerate Dongle]ボタンを押します。
+ 　これでPCに挿入されているドングルがリストされます。
+3) 複数のドングルがある場合は、リストからドングルを選択し、[Blink Selected Dongle]ボタンによってドングルを点滅させることで対象のドングルがわかります。
+4) 更新対象のドングルをリストから選択します。
+5) [Create C2V]ボタンを押し、c2vファイルを保存するフォルダを選択します。
+　 これで指定フォルダに"ドングルのシリアル番号_日付.c2v"ファイルが作成されます。
+6) 作成されたC2Vファイルを販売店に送ります。
+
+＜V2Cファイルの書き込み＞
+1) [Burn V2C]タブを選択します。
+2) [Load V2C]ボタンを押します。
+3) 販売店から受け取ったV2Cファイルを選択します。
+   これで下の領域にV2Cファイルがリストされます。
+4) [Burn to Dongle]ボタンを押します。
+　 これで書き込みが始まります。"Completed"というメッセージが出たら成功です。
+ 
+＜Description＞
+The following procedure is necessary to update the licenses in your dongle.
+1) Make a C2V file correspond to your dongle to be updated by using this tool.
+2) Send the C2V file to your sales agent.
+3) Receive a V2C file from the sales agent.
+4) Burn the V2C file to your dongle by using this tool.
+
+＜How to create C2V file＞
+1) Select the [Create C2V] tab.
+2) Push the [Enumerate Dongle] button.
+    Some dongles inserted into your PC will be listed.
+3) You can identify the dongle by selecting a dongle in the dongle list and pushing the [Blink Selected Dongle] .
+4) Select a dongle in the dongle list that you need to update.
+5) Push the [Create C2V] button then choose a folder that the C2V file should be saved.
+   The file named "dongle_serial_date.c2v" will be created in the folder.
+6) Send the C2V file to your sales agent.
+
+＜How to burn V2C file＞
+1) Select the [Burn to V2C] tab.
+2) Push the [Load V2C] button.
+3) Select the V2C file you received from your sales agent.
+4) Push the [Burn to Dongle] button.
+   The message "Completed" means success !

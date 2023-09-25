@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\3Dmarker\Git\Dongle\TimePeriodTest\xerces-c-3.2.3\doc\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\3Dmarker\Git\Dongle\TimePeriodTest\xerces-c-3.2.3\doc\style\dtd\blocks.ent">
+      <Filter>style/dtd</Filter>
+    </None>
+    <None Include="D:\3Dmarker\Git\Dongle\TimePeriodTest\xerces-c-3.2.3\doc\style\dtd\characters.ent">
+      <Filter>style/dtd</Filter>
+    </None>
+    <None Include="D:\3Dmarker\Git\Dongle\TimePeriodTest\xerces-c-3.2.3\doc\style\dtd\links.ent">
+      <Filter>style/dtd</Filter>
+    </None>
+    <None Include="D:\3Dmarker\Git\Dongle\TimePeriodTest\xerces-c-3.2.3\doc\style\dtd\markup.ent">
+      <Filter>style/dtd</Filter>
+    </None>
+    <None Include="D:\3Dmarker\Git\Dongle\TimePeriodTest\xerces-c-3.2.3\doc\style\graphics\button-a.gif">
+      <Filter>style/graphics</Filter>
+    </None>
+    <None Include="D:\3Dmarker\Git\Dongle\TimePeriodTest\xerces-c-3.2.3\doc\style\graphics\button-b.gif">
+      <Filter>style/graphics</Filter>
+    </None>
+    <None Include="D:\3Dmarker\Git\Dongle\TimePeriodTest\xerces-c-3.2.3\doc\style\graphics\section.gif">
+      <Filter>style/graphics</Filter>
+    </None>
+    <None Include="D:\3Dmarker\Git\Dongle\TimePeriodTest\xerces-c-3.2.3\doc\style\resources\bottom.gif">
+      <Filter>style/resources</Filter>
+    </None>
+    <None Include="D:\3Dmarker\Git\Dongle\TimePeriodTest\xerces-c-3.2.3\doc\style\resources\button-asf-hi.gif">
+      <Filter>style/resources</Filter>
+    </None>
+    <None Include="D:\3Dmarker\Git\Dongle\TimePeriodTest\xerces-c-3.2.3\doc\style\resources\button-asf-lo.gif">
+      <Filter>style/resources</Filter>
+    </None>
+    <None Include="D:\3Dmarker\Git\Dongle\TimePeriodTest\xerces-c-3.2.3\doc\style\resources\button-w3c-hi.gif">
+      <Filter>style/resources</Filter>
+    </None>
+    <None Include="D:\3Dmarker\Git\Dongle\TimePeriodTest\xerces-c-3.2.3\doc\style\resources\button-w3c-lo.gif">
+      <Filter>style/resources</Filter>
+    </None>
+    <None Include="D:\3Dmarker\Git\Dongle\TimePeriodTest\xerces-c-3.2.3\doc\style\resources\button-xml-hi.gif">
+      <Filter>style/resources</Filter>
+    </None>
+    <None Include="D:\3Dmarker\Git\Dongle\TimePeriodTest\xerces-c-3.2.3\doc\style\resources\button-xml-lo.gif">
+      <Filter>style/resources</Filter>
+    </None>
+    <None Include="D:\3Dmarker\Git\Dongle\TimePeriodTest\xerces-c-3.2.3\doc\style\resources\close.gif">
+      <Filter>style/resources</Filter>
+    </None>
+    <None Include="D:\3Dmarker\Git\Dongle\TimePeriodTest\xerces-c-3.2.3\doc\style\resources\dot.gif">
+      <Filter>style/resources</Filter>
+    </None>
+    <None Include="D:\3Dmarker\Git\Dongle\TimePeriodTest\xerces-c-3.2.3\doc\style\resources\join.gif">
+      <Filter>style/resources</Filter>
+    </None>
+    <None Include="D:\3Dmarker\Git\Dongle\TimePeriodTest\xerces-c-3.2.3\doc\style\resources\line.gif">
+      <Filter>style/resources</Filter>
+    </None>
+    <None Include="D:\3Dmarker\Git\Dongle\TimePeriodTest\xerces-c-3.2.3\doc\style\resources\logo.gif">
+      <Filter>style/resources</Filter>
+    </None>
+    <None Include="D:\3Dmarker\Git\Dongle\TimePeriodTest\xerces-c-3.2.3\doc\style\resources\note.gif">
+      <Filter>style/resources</Filter>
+    </None>
+    <None Include="D:\3Dmarker\Git\Dongle\TimePeriodTest\xerces-c-3.2.3\doc\style\resources\right.gif">
+      <Filter>style/resources</Filter>
+    </None>
+    <None Include="D:\3Dmarker\Git\Dongle\TimePeriodTest\xerces-c-3.2.3\doc\style\resources\separator-space.gif">
+      <Filter>style/resources</Filter>
+    </None>
+    <None Include="D:\3Dmarker\Git\Dongle\TimePeriodTest\xerces-c-3.2.3\doc\style\resources\separator.gif">
+      <Filter>style/resources</Filter>
+    </None>
+    <None Include="D:\3Dmarker\Git\Dongle\TimePeriodTest\xerces-c-3.2.3\doc\style\resources\void.gif">
+      <Filter>style/resources</Filter>
+    </None>
+    <None Include="D:\3Dmarker\Git\Dongle\TimePeriodTest\xerces-c-3.2.3\doc\style\stylesheets\any2header.xsl">
+      <Filter>style/stylesheets</Filter>
+    </None>
+    <None Include="D:\3Dmarker\Git\Dongle\TimePeriodTest\xerces-c-3.2.3\doc\style\stylesheets\any2project.xsl">
+      <Filter>style/stylesheets</Filter>
+    </None>
+    <None Include="D:\3Dmarker\Git\Dongle\TimePeriodTest\xerces-c-3.2.3\doc\style\stylesheets\book2group.xsl">
+      <Filter>style/stylesheets</Filter>
+    </None>
+    <None Include="D:\3Dmarker\Git\Dongle\TimePeriodTest\xerces-c-3.2.3\doc\style\stylesheets\book2project.xsl">
+      <Filter>style/stylesheets</Filter>
+    </None>
+    <None Include="D:\3Dmarker\Git\Dongle\TimePeriodTest\xerces-c-3.2.3\doc\style\stylesheets\changes2document.xsl">
+      <Filter>style/stylesheets</Filter>
+    </None>
+    <None Include="D:\3Dmarker\Git\Dongle\TimePeriodTest\xerces-c-3.2.3\doc\style\stylesheets\context2footer.xsl">
+      <Filter>style/stylesheets</Filter>
+    </None>
+    <None Include="D:\3Dmarker\Git\Dongle\TimePeriodTest\xerces-c-3.2.3\doc\style\stylesheets\context2label.xsl">
+      <Filter>style/stylesheets</Filter>
+    </None>
+    <None Include="D:\3Dmarker\Git\Dongle\TimePeriodTest\xerces-c-3.2.3\doc\style\stylesheets\context2section.xsl">
+      <Filter>style/stylesheets</Filter>
+    </None>
+    <None Include="D:\3Dmarker\Git\Dongle\TimePeriodTest\xerces-c-3.2.3\doc\style\stylesheets\directory2project.xsl">
+      <Filter>style/stylesheets</Filter>
+    </None>
+    <None Include="D:\3Dmarker\Git\Dongle\TimePeriodTest\xerces-c-3.2.3\doc\style\stylesheets\document2html.xsl">
+      <Filter>style/stylesheets</Filter>
+    </None>
+    <None Include="D:\3Dmarker\Git\Dongle\TimePeriodTest\xerces-c-3.2.3\doc\style\stylesheets\faqs2document.xsl">
+      <Filter>style/stylesheets</Filter>
+    </None>
+    <None Include="D:\3Dmarker\Git\Dongle\TimePeriodTest\xerces-c-3.2.3\doc\style\stylesheets\group2document.xsl">
+      <Filter>style/stylesheets</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <XML Include="D:\3Dmarker\Git\Dongle\TimePeriodTest\xerces-c-3.2.3\doc\style\loader.xml">
+      <Filter>style</Filter>
+    </XML>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="style">
+      <UniqueIdentifier>{9BB8A7E9-A154-3728-86F0-33AE6ADEE46B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="style/dtd">
+      <UniqueIdentifier>{2DBD676B-EAE2-37AC-88C9-FB2DAF8F27D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="style/graphics">
+      <UniqueIdentifier>{B34C433F-2BC7-3190-BE36-B3DA383B5992}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="style/resources">
+      <UniqueIdentifier>{C6458FCE-630A-36B5-9FA4-60359E1B2F0F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="style/stylesheets">
+      <UniqueIdentifier>{90DA23FB-64E0-338C-83A0-15460C1997E9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

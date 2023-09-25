@@ -1,0 +1,25 @@
+<?xml version = '1.0' encoding='UTF-8'?>
+<AksSettings>
+   <General>
+      <LastConnection>
+         <UserName>admin</UserName>
+         <Connection>
+            <Server>GENKEN-DEVELOP</Server>
+            <Port>8081</Port>
+            <EMS/>
+         </Connection>
+      </LastConnection>
+   </General>
+   <Users>
+      <User>
+         <UserName>admin</UserName>
+         <Connections>
+            <Connection>
+               <Server>GENKEN-DEVELOP</Server>
+               <Port>8081</Port>
+               <EMS/>
+         </Connection>
+         </Connections>
+      </User>
+   </Users>
+</AksSettings>

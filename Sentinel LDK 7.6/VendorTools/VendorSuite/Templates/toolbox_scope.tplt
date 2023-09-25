@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<scope_templates>
+ <template>
+  <name>Unfiltered</name>
+  <text><![CDATA[<?xml version="1.0" encoding="UTF-8" ?>
+<haspscope/>]]></text>
+ </template>
+ <template>
+  <name>HL Only</name>
+  <text><![CDATA[<?xml version="1.0" encoding="UTF-8" ?>
+<haspscope>
+    <hasp type="HASP-HL" />
+</haspscope>]]></text>
+ </template>
+ <template>
+  <name>Local Only</name>
+  <text><![CDATA[<?xml version="1.0" encoding="UTF-8" ?>
+<haspscope>
+    <license_manager hostname="localhost" />
+</haspscope>]]></text>
+ </template>
+ <template>
+  <name>Remote Only</name>
+  <text><![CDATA[<?xml version="1.0" encoding="UTF-8" ?>
+<haspscope>
+    <license_manager hostname="~localhost" />
+</haspscope>]]></text>
+ </template>
+ <template>
+  <name>Local HL Only</name>
+  <text><![CDATA[<?xml version="1.0" encoding="UTF-8" ?>
+<haspscope>
+    <hasp type="HASP-HL" >
+        <license_manager hostname="localhost" />
+    </hasp>
+</haspscope>]]></text>
+ </template>
+ <template>
+  <name>Specified License Manager</name>
+  <text><![CDATA[<?xml version="1.0" encoding="UTF-8" ?>
+<haspscope>
+    <license_manager hostname="????????" />
+</haspscope>]]></text>
+ </template>
+ <template>
+  <name>Specified LM IP Address</name>
+  <text><![CDATA[<?xml version="1.0" encoding="UTF-8" ?>
+<haspscope>
+    <license_manager ip="??.??.??.??" />
+</haspscope>]]></text>
+ </template>
+ <template>
+  <name>Specified Key Id</name>
+  <text><![CDATA[<?xml version="1.0" encoding="UTF-8" ?>
+<haspscope>
+    <hasp id="123456789" />
+</haspscope>
+]]></text>
+ </template>
+ <template>
+  <name>Specified Product</name>
+  <text><![CDATA[<haspscope>
+   <product id="123"/>
+</haspscope>]]></text>
+ </template>
+</scope_templates>

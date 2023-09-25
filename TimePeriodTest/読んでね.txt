@@ -1,0 +1,20 @@
+■デモのVendorコードで動作する。
+■Sentinel LDK8.3を使っている。
+■xercesライブラリ（XML解析）を使っている
+■必要なlib/dllは下記フォルダに置いてある。
+G:\共有ドライブ\PR_IMG_6DMARKER(社内)\山本管理\開発関連\ExternalLib\Dongle\Sentinel8.3_Lib_Dll
+
+■Sentinel LDK8.3のlib/dllは下記のようにコピーすることもできる
+sntl_licgen_net_windows.dllはSentinelLDKのSampleフォルダからコピー
+下記もSentinelLDKのRuntimeからコピー
+	hasp_net_windows.dll
+	apidsp_windows_x64.dll
+	hasp_windows_x64_demo.dll
+	sntl_licgen_windows_x64.dll
+	apidsp_windows.dll
+	hasp_windows_demo.dll
+	sntl_licgen_windows.dll
+	libhasp_windows_x64_demo.lib
+
+ToolBoxを使うときのDemo用Vendorコードファイルは
+C:\Users\takahiro\Documents\Thales\Sentinel LDK 8.3\VendorCodes\DEMOMA.hvc

@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<scope_templates>
+ <template>
+  <name>Set configuration defaults and write to ini file</name>
+  <text><![CDATA[<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+  <set_defaults />
+  <writeconfig />
+</config>]]></text>
+ </template>
+ <template>
+  <name>Apply an update file</name>
+  <text><![CDATA[file://123456.v2c
+]]></text>
+ </template>
+ <template>
+  <name>Enable Detach</name>
+  <text><![CDATA[<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+  <enabledetach>1</enabledetach>
+  <writeconfig />
+</config>
+]]></text>
+ </template>
+ <template>
+  <name>Add a Friendly Key Name</name>
+  <text><![CDATA[<?xml version="1.0" encoding="UTF-8" ?>
+<keydescription>
+  <hasp>
+    <id>123456</id>
+    <name>New Name for Key 123456</name>
+  </hasp>
+</keydescription>
+
+]]></text>
+ </template>
+ <template>
+  <name>Apply Multiple Configuration Settings</name>
+  <text><![CDATA[<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+  <serveraddrs_clear/>
+  <serveraddr>10.24.2.16</serveraddr>
+  <serveraddr>p4p</serveraddr>
+  <serveraddr>10.24.2.255</serveraddr>
+  <user_restriction>deny=baerbel@all</user_restriction>
+  <access_restriction>deny=10.23.*</access_restriction>
+  <writeconfig />
+</config>]]></text>
+ </template>
+</scope_templates>

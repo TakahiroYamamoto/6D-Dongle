@@ -1,0 +1,90 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hasp_update_71", "hasp_update_71.vcproj", "{5600DF77-0E4E-4C29-9970-360EAADE0325}"
+	ProjectSection(ProjectDependencies) = postProject
+		{84FBCE09-311A-4F9E-814F-28DE0AF97B0D} = {84FBCE09-311A-4F9E-814F-28DE0AF97B0D}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sentinel HASP cpp API", "..\..\..\..\API\Runtime\cpp\msvc7\libhasp_cpp_windows_msc7.vcproj", "{84FBCE09-311A-4F9E-814F-28DE0AF97B0D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hasp_demo_71", "hasp_demo_71.vcproj", "{484CE679-FC5E-4C39-BD15-38418407A783}"
+	ProjectSection(ProjectDependencies) = postProject
+		{84FBCE09-311A-4F9E-814F-28DE0AF97B0D} = {84FBCE09-311A-4F9E-814F-28DE0AF97B0D}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "admin_demo", "admin_demo.vcproj", "{86A2BE12-2CF5-4150-B69F-63B2753A7DF4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{84FBCE09-311A-4F9E-814F-28DE0AF97B0D} = {84FBCE09-311A-4F9E-814F-28DE0AF97B0D}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libsntl_adminapi_cpp_windows", "..\..\..\..\api\Admin\Cpp\msvc71\libsntl_adminapi_cpp_windows.vcproj", "{4533D76E-7164-4A07-A604-119256CB68D2}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Debug Diag LIBMT = Debug Diag LIBMT
+		Debug Diag LIBMTD = Debug Diag LIBMTD
+		Debug LIBMT = Debug LIBMT
+		Debug LIBMTD = Debug LIBMTD
+		Release = Release
+		Release LIBMT = Release LIBMT
+		Release LIBMTD = Release LIBMTD
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{5600DF77-0E4E-4C29-9970-360EAADE0325}.Debug.ActiveCfg = Debug|Win32
+		{5600DF77-0E4E-4C29-9970-360EAADE0325}.Debug.Build.0 = Debug|Win32
+		{5600DF77-0E4E-4C29-9970-360EAADE0325}.Debug Diag LIBMT.ActiveCfg = Debug|Win32
+		{5600DF77-0E4E-4C29-9970-360EAADE0325}.Debug Diag LIBMT.Build.0 = Debug|Win32
+		{5600DF77-0E4E-4C29-9970-360EAADE0325}.Debug Diag LIBMTD.ActiveCfg = Debug|Win32
+		{5600DF77-0E4E-4C29-9970-360EAADE0325}.Debug Diag LIBMTD.Build.0 = Debug|Win32
+		{5600DF77-0E4E-4C29-9970-360EAADE0325}.Debug LIBMT.ActiveCfg = Debug|Win32
+		{5600DF77-0E4E-4C29-9970-360EAADE0325}.Debug LIBMT.Build.0 = Debug|Win32
+		{5600DF77-0E4E-4C29-9970-360EAADE0325}.Debug LIBMTD.ActiveCfg = Debug|Win32
+		{5600DF77-0E4E-4C29-9970-360EAADE0325}.Debug LIBMTD.Build.0 = Debug|Win32
+		{5600DF77-0E4E-4C29-9970-360EAADE0325}.Release.ActiveCfg = Release|Win32
+		{5600DF77-0E4E-4C29-9970-360EAADE0325}.Release.Build.0 = Release|Win32
+		{5600DF77-0E4E-4C29-9970-360EAADE0325}.Release LIBMT.ActiveCfg = Release|Win32
+		{5600DF77-0E4E-4C29-9970-360EAADE0325}.Release LIBMT.Build.0 = Release|Win32
+		{5600DF77-0E4E-4C29-9970-360EAADE0325}.Release LIBMTD.ActiveCfg = Release|Win32
+		{5600DF77-0E4E-4C29-9970-360EAADE0325}.Release LIBMTD.Build.0 = Release|Win32
+		{84FBCE09-311A-4F9E-814F-28DE0AF97B0D}.Debug.ActiveCfg = Debug LIBMT|Win32
+		{84FBCE09-311A-4F9E-814F-28DE0AF97B0D}.Debug.Build.0 = Debug LIBMT|Win32
+		{84FBCE09-311A-4F9E-814F-28DE0AF97B0D}.Debug Diag LIBMT.ActiveCfg = Debug Diag LIBMT|Win32
+		{84FBCE09-311A-4F9E-814F-28DE0AF97B0D}.Debug Diag LIBMT.Build.0 = Debug Diag LIBMT|Win32
+		{84FBCE09-311A-4F9E-814F-28DE0AF97B0D}.Debug Diag LIBMTD.ActiveCfg = Debug Diag LIBMTD|Win32
+		{84FBCE09-311A-4F9E-814F-28DE0AF97B0D}.Debug Diag LIBMTD.Build.0 = Debug Diag LIBMTD|Win32
+		{84FBCE09-311A-4F9E-814F-28DE0AF97B0D}.Debug LIBMT.ActiveCfg = Debug LIBMT|Win32
+		{84FBCE09-311A-4F9E-814F-28DE0AF97B0D}.Debug LIBMT.Build.0 = Debug LIBMT|Win32
+		{84FBCE09-311A-4F9E-814F-28DE0AF97B0D}.Debug LIBMTD.ActiveCfg = Debug LIBMTD|Win32
+		{84FBCE09-311A-4F9E-814F-28DE0AF97B0D}.Debug LIBMTD.Build.0 = Debug LIBMTD|Win32
+		{84FBCE09-311A-4F9E-814F-28DE0AF97B0D}.Release.ActiveCfg = Release LIBMT|Win32
+		{84FBCE09-311A-4F9E-814F-28DE0AF97B0D}.Release.Build.0 = Release LIBMT|Win32
+		{84FBCE09-311A-4F9E-814F-28DE0AF97B0D}.Release LIBMT.ActiveCfg = Release LIBMT|Win32
+		{84FBCE09-311A-4F9E-814F-28DE0AF97B0D}.Release LIBMT.Build.0 = Release LIBMT|Win32
+		{84FBCE09-311A-4F9E-814F-28DE0AF97B0D}.Release LIBMTD.ActiveCfg = Release LIBMTD|Win32
+		{84FBCE09-311A-4F9E-814F-28DE0AF97B0D}.Release LIBMTD.Build.0 = Release LIBMTD|Win32
+		{484CE679-FC5E-4C39-BD15-38418407A783}.Debug.ActiveCfg = Debug|Win32
+		{484CE679-FC5E-4C39-BD15-38418407A783}.Debug.Build.0 = Debug|Win32
+		{484CE679-FC5E-4C39-BD15-38418407A783}.Debug Diag LIBMT.ActiveCfg = Debug|Win32
+		{484CE679-FC5E-4C39-BD15-38418407A783}.Debug Diag LIBMT.Build.0 = Debug|Win32
+		{484CE679-FC5E-4C39-BD15-38418407A783}.Debug Diag LIBMTD.ActiveCfg = Debug|Win32
+		{484CE679-FC5E-4C39-BD15-38418407A783}.Debug Diag LIBMTD.Build.0 = Debug|Win32
+		{484CE679-FC5E-4C39-BD15-38418407A783}.Debug LIBMT.ActiveCfg = Debug|Win32
+		{484CE679-FC5E-4C39-BD15-38418407A783}.Debug LIBMT.Build.0 = Debug|Win32
+		{484CE679-FC5E-4C39-BD15-38418407A783}.Debug LIBMTD.ActiveCfg = Debug|Win32
+		{484CE679-FC5E-4C39-BD15-38418407A783}.Debug LIBMTD.Build.0 = Debug|Win32
+		{484CE679-FC5E-4C39-BD15-38418407A783}.Release.ActiveCfg = Release|Win32
+		{484CE679-FC5E-4C39-BD15-38418407A783}.Release.Build.0 = Release|Win32
+		{484CE679-FC5E-4C39-BD15-38418407A783}.Release LIBMT.ActiveCfg = Release|Win32
+		{484CE679-FC5E-4C39-BD15-38418407A783}.Release LIBMT.Build.0 = Release|Win32
+		{484CE679-FC5E-4C39-BD15-38418407A783}.Release LIBMTD.ActiveCfg = Release|Win32
+		{484CE679-FC5E-4C39-BD15-38418407A783}.Release LIBMTD.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<scope_templates>
+ <template>
+  <name>Retrieve Current Context</name>
+  <text><![CDATA[<?xml version="1.0" encoding="UTF-8" ?>
+<context></context>]]></text>
+ </template>
+ <template>
+  <name>Retrieve All Configuration Settings</name>
+  <text><![CDATA[<?xml version="1.0" encoding="UTF-8" ?>
+<admin>
+  <config>
+    <element name="*" />
+  </config>
+</admin>
+]]></text>
+ </template>
+ <template>
+  <name>Retrieve All Key data</name>
+  <text><![CDATA[<?xml version="1.0" encoding="UTF-8" ?>
+<admin>
+  <hasp>
+    <element name="*" />
+  </hasp>
+</admin>]]></text>
+ </template>
+ <template>
+  <name>Retrieve License Manager Data</name>
+  <text><![CDATA[<?xml version="1.0" encoding="UTF-8" ?>
+<admin>
+  <license_manager>
+    <element name="*" />
+  </license_manager>
+</admin>]]></text>
+ </template>
+ <template>
+  <name>Retrieve all feature data</name>
+  <text><![CDATA[<?xml version="1.0" encoding="UTF-8" ?>
+<admin>
+  <feature>
+    <element name="*" />
+  </feature>
+</admin>]]></text>
+ </template>
+ <template>
+  <name>Retrieve List of Detached Licenses</name>
+  <text><![CDATA[<?xml version="1.0" encoding="UTF-8" ?>
+<admin>
+  <detached>
+    <element name="*" />
+  </detached>
+</admin>]]></text>
+ </template>
+ <template>
+  <name>Retrieve List of Certificates</name>
+  <text><![CDATA[<?xml version="1.0" encoding="UTF-8" ?>
+<admin>
+  <certificates>
+    <element name="*" />
+  </certificates>
+</admin>]]></text>
+ </template>
+ <template>
+  <name>Retrieve List of Sessions</name>
+  <text><![CDATA[<?xml version="1.0" encoding="UTF-8" ?>
+<admin>
+  <session>
+    <element name="*" />
+  </session>
+</admin>]]></text>
+ </template>
+ <template>
+  <name>Retrieve Selected Key Data</name>
+  <text><![CDATA[<?xml version="1.0" encoding="UTF-8" ?>
+<admin>
+  <hasp>
+    <element name="vendorid" />
+    <element name="haspid" />
+    <element name="typename" />
+    <element name="local" />
+    <element name="localname" />
+  </hasp>
+</admin>
+]]></text>
+ </template>
+</scope_templates>

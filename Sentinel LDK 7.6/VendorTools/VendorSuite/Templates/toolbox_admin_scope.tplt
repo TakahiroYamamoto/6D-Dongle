@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<scope_templates>
+ <template>
+  <name>Unfiltered</name>
+  <text><![CDATA[<?xml version="1.0" encoding="UTF-8" ?>
+<haspscope/>]]></text>
+ </template>
+ <template>
+  <name>Specified Vendor</name>
+  <text><![CDATA[<?xml version="1.0" encoding="UTF-8" ?>
+<haspscope>
+  <vendor id="37515" />
+</haspscope>
+
+                 ]]></text>
+ </template>
+ <template>
+  <name>Specified Key Id</name>
+  <text><![CDATA[<?xml version="1.0" encoding="UTF-8" ?>
+<haspscope>
+  <hasp id="123456789" />
+</haspscope>
+]]></text>
+ </template>
+ <template>
+  <name>Specified Product</name>
+  <text><![CDATA[<?xml version="1.0" encoding="UTF-8" ?>
+<haspscope>
+  <product id="123"/>
+</haspscope>]]></text>
+ </template>
+</scope_templates>

@@ -1,0 +1,135 @@
+/*  
+**
+**  Copyright (C) 2014, SafeNet, Inc. All rights reserved.
+**
+**  haspdsd_sample - RC file
+**
+*/
+
+#include <windows.h>
+#include <ntverp.h>
+
+#include "usage.h"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDC_USAGE DIALOG DISCARDABLE  161, 65, 338, 222
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION
+CAPTION "Sentinel Run-time Environment Installer"
+FONT 9, "MS Shell Dlg"
+BEGIN
+    PUSHBUTTON      "&OK",IDC_OK,150,202,40,14
+    LISTBOX         IDC_TEXT,0,1,338,207,WS_VSCROLL | WS_HSCROLL |
+                    WS_TABSTOP
+END
+
+IDC_INFO DIALOG DISCARDABLE  161, 65, 229, 243
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION
+CAPTION "Sentinel Run-time Environment Installer"
+FONT 9, "Courier"
+BEGIN
+    PUSHBUTTON      "&OK",IDC_OK,93,215,40,14
+    LISTBOX         IDC_TEXT,14,10,200,200
+END
+
+IDC_LLM_SESSIONS DIALOGEX 161, 65, 186, 137
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION
+CAPTION "Sentinel Run-time Environment Installer"
+FONT 9, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    PUSHBUTTON      "&Continue",IDC_OK,93,215,40,14
+    PUSHBUTTON      "&Exit",IDC_EXIT,153,215,40,14
+    LISTBOX         IDC_TEXT,10,14,163,57,WS_DISABLED
+    LTEXT           "Press ""Continue"" to continue with the installation.",IDC_STATIC,14,71,158,8
+    LTEXT           "Active License Manager Sessions",IDC_STATIC,14,3,102,8
+    LTEXT           "Press ""Exit"" to abort installation.",IDC_STATIC,14,82,101,8
+END
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+#ifdef VER_PRODUCTBUILD
+#undef VER_PRODUCTBUILD
+#endif
+
+#ifdef VER_PRODUCTVERSION_STR
+#undef VER_PRODUCTVERSION_STR
+#endif
+
+#ifdef VER_PRODUCTVERSION
+#undef VER_PRODUCTVERSION
+#endif
+
+#ifdef VER_FILEVERSION_STR
+#undef VER_FILEVERSION_STR
+#endif
+
+#ifdef VER_FILEVERSION
+#undef VER_FILEVERSION
+#endif
+
+#ifdef VER_PRODUCTBETA_STR
+#undef VER_PRODUCTBETA_STR
+#endif
+
+#ifdef VER_COMPANYNAME_STR
+#undef VER_COMPANYNAME_STR
+#endif
+
+#ifdef VER_PRODUCTNAME_STR
+#undef VER_PRODUCTNAME_STR
+#endif
+
+#ifdef VER_LEGALTRADEMARKS_STR
+#undef VER_LEGALTRADEMARKS_STR
+#endif
+
+#ifdef VER_LEGALCOPYRIGHT_STR
+#undef VER_LEGALCOPYRIGHT_STR
+#endif
+
+#ifdef VER_FILEDESCRIPTION_STR
+#undef VER_FILEDESCRIPTION_STR
+#endif
+
+#ifdef VER_INTERNALNAME_STR
+#undef VER_INTERNALNAME_STR
+#endif
+
+#ifdef VER_ORIGINALFILENAME_STR
+#undef VER_ORIGINALFILENAME_STR
+#endif
+
+
+#define VER_PRODUCTVERSION_STR	"7.60"
+
+#define VER_PRODUCTVERSION	7,60,0,1
+#define VER_PRODUCTBETA_STR	"Monster"
+
+#define VER_FILEVERSION_STR	"7.60"
+#define VER_FILEVERSION	7,60,0,1
+
+#define VER_COMPANYNAME_STR	"SafeNet Inc."
+#define VER_PRODUCTNAME_STR	"Sentinel Run-time Environment Installer Sample"
+#define VER_LEGALTRADEMARKS_STR	"Sentinel(r) is a registered trademark of SafeNet Inc."
+#define VER_LEGALCOPYRIGHT_STR	"Copyright (C) 2014 SafeNet, Inc. All rights reserved."
+
+#define	VER_FILETYPE	VFT_DRV
+#define	VER_FILESUBTYPE	VFT2_DRV_SYSTEM
+#define VER_FILEDESCRIPTION_STR     "Sentinel Run-time Environment Installer Sample"
+#ifdef IA64
+#define VER_INTERNALNAME_STR        "haspds_sample.exe for WIN64"
+#else
+#define VER_INTERNALNAME_STR        "haspds_sample.exe"
+#endif
+#define VER_ORIGINALFILENAME_STR    "haspds_sample.exe"
+
+
+#include "common.ver"
+
+

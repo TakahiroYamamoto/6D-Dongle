@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<scope_templates>
+ <template>
+  <name>New Provisional Product</name>
+  <text><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+ <sentinel_ldk:license schema_version="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sentinel_ldk="http://www.safenet-inc.com/sentinelldk">
+   <enforcement_type>SL-AdminMode</enforcement_type>
+   <product>
+      <id>123</id>
+      <name>Sample Product 123</name>
+      <feature>
+         <id>1000</id>
+         <name>Sample Feature 1000</name>
+         <license_properties>
+            <!-- Only one of the below license model can be specified. -->
+            <!-- You can specify the number of days until the license expires -->
+            <days_to_expiration>30</days_to_expiration>
+            <!-- <perpetual/> -->
+            <!-- <expiration_date>2011-12-31</expiration_date> -->
+            <!-- You can specify the remote desktop accessibility flag. Possible values are "Yes" or "No" --> 
+            <remote_desktop_access>Yes</remote_desktop_access>
+            <!-- You can specify the virtual machine accessibility flag. Possible values are "Yes" or "No" -->
+            <virtual_machine_access>No</virtual_machine_access>
+         </license_properties>
+      </feature>
+   </product>
+   <memory>
+      <ro_memory_segment>
+         <offset>0</offset>
+         <content>U2FtcGxlIFJlYWQgT25seSBNZW1vcnk=</content>
+      </ro_memory_segment>
+      <!-- Add as many read only memory segment as many you want -->
+      <rw_memory_segment>
+         <offset>24</offset>
+         <content>U2FtcGxlIFJlYWQgV3JpdGUgTWVtb3J5</content>
+      </rw_memory_segment>
+      <!-- Add as many read write memory segment as many you want -->
+   </memory>
+ </sentinel_ldk:license>]]></text>
+ </template>
+ <template>
+  <name>Multiple Provisional Products</name>
+  <text><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+ <sentinel_ldk:license schema_version="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sentinel_ldk="http://www.safenet-inc.com/sentinelldk">
+   <enforcement_type>SL-AdminMode</enforcement_type>
+   <!-- First product -->   
+   <product>
+      <id>123</id>
+      <name>Sample Product 123</name>
+      <feature>
+         <id>1000</id>
+         <name>Sample Feature 1000</name>
+         <license_properties>
+            <!-- Only one of the below license model can be specified for provisional product. -->
+            <perpetual/>
+            <!-- <days_to_expiration>30</days_to_expiration> -->
+            <!-- <expiration_date>2011-12-31</expiration_date> -->
+            <!-- You can specify the remote desktop accessibility flag. Possible values are "Yes" or "No" --> 
+            <remote_desktop_access>Yes</remote_desktop_access>
+         </license_properties>
+      </feature>
+   </product>
+   <!-- Second product -->   
+   <product>
+      <id>200</id>
+      <name>Sample Product 200</name>
+      <feature>
+         <id>1001</id>
+         <name>Sample Feature 1001</name>
+         <license_properties>
+            <!-- Only one of the below license model can be specified. -->
+            <!-- You can specify the number of days until the license expires -->
+            <days_to_expiration>30</days_to_expiration>
+            <!-- <perpetual/> -->
+            <!-- <expiration_date>2011-12-31</expiration_date> -->
+            <!-- You can specify the remote desktop accessibility flag. Possible values are "Yes" or "No" --> 
+            <remote_desktop_access>Yes</remote_desktop_access>
+            <!-- You can specify the virtual machine accessibility flag. Possible values are "Yes" or "No" -->
+            <virtual_machine_access>No</virtual_machine_access>
+         </license_properties>
+      </feature>
+   </product>
+   <!-- You can specify as many products as desired in a license; the only restriction is the capacity of the protection key -->
+   <memory>
+      <ro_memory_segment>
+         <offset>0</offset>
+         <content>U2FtcGxlIFJlYWQgT25seSBNZW1vcnk=</content>
+      </ro_memory_segment>
+      <!-- Add as many read only memory segment as many you want -->
+      <rw_memory_segment>
+         <offset>24</offset>
+         <content>U2FtcGxlIFJlYWQgV3JpdGUgTWVtb3J5</content>
+      </rw_memory_segment>
+      <!-- Add as many read write memory segment as many you want -->
+   </memory>
+ </sentinel_ldk:license>]]></text>
+ </template>
+ <template>
+  <name>Blank Definition</name>
+  <text><![CDATA[]]></text>
+ </template>
+</scope_templates>

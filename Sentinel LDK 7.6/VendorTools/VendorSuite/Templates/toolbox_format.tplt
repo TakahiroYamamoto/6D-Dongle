@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<scope_templates>
+ <template>
+  <name>Accessible Keys</name>
+  <text><![CDATA[<?xml version="1.0" encoding="UTF-8" ?>
+<haspformat root="hasp_info">
+    <hasp>
+        <attribute name="id" />
+        <attribute name="type" />
+        <feature>
+            <attribute name="id" />
+        </feature>
+    </hasp>
+</haspformat>]]></text>
+ </template>
+ <template>
+  <name>License Status</name>
+  <text><![CDATA[<?xml version="1.0" encoding="UTF-8" ?>
+<haspformat root="hasp_info">
+    <feature>
+        <attribute name="id" />
+        <element name="license" />
+        <hasp>
+          <attribute name="id" />
+          <attribute name="type" />
+        </hasp>
+    </feature>
+</haspformat>
+]]></text>
+ </template>
+ <template>
+  <name>LM Information</name>
+  <text><![CDATA[<?xml version="1.0" encoding="UTF-8" ?>
+<haspformat  root="hasp_info">
+  <license_manager>
+    <element name="hostname" />
+    <element name="ip" />
+    <element name="osname" />
+  </license_manager> 
+</haspformat>]]></text>
+ </template>
+ <template>
+  <name>Scope For Specified LM</name>
+  <text><![CDATA[<?xml version="1.0" encoding="UTF-8" ?>
+<haspformat root="haspscope">
+    <license_manager>
+        <attribute name="hostname" />
+    </license_manager>
+</haspformat>]]></text>
+ </template>
+ <template>
+  <name>Scope For Specified Key Id</name>
+  <text><![CDATA[<?xml version="1.0" encoding="UTF-8" ?>
+<haspformat root="haspscope">
+    <hasp>
+        <attribute name="id" />
+    </hasp>
+</haspformat>]]></text>
+ </template>
+ <template>
+  <name>Create C2V</name>
+  <text><![CDATA[<haspformat format="updateinfo"/>]]></text>
+ </template>
+ <template>
+  <name>Feature Information</name>
+  <text><![CDATA[<haspformat root="hasp_info">
+    <feature>
+       <attribute name="id" />
+       <attribute name="locked" />
+       <attribute name="expired" />
+       <attribute name="disabled" />
+       <attribute name="usable" />
+    </feature>
+</haspformat>]]></text>
+ </template>
+ <template>
+  <name>Get available products</name>
+  <text><![CDATA[<haspformat>
+<product>
+    <element name="id"/>
+    <element name="name"/>
+</product>
+</haspformat>]]></text>
+ </template>
+ <template>
+  <name>Get Recipient</name>
+  <text><![CDATA[<haspformat root="location">
+    <license_manager>
+        <attribute name="id" />
+        <attribute name="time" />
+        <element name="hostname" />
+        <element name="version" />
+        <element name="host_fingerprint" />
+     </license_manager>
+</haspformat>]]></text>
+ </template>
+ <template>
+  <name>Get Fingerprint</name>
+  <text><![CDATA[<haspformat format="host_fingerprint"/>]]></text>
+ </template>
+ <template>
+  <name>Key information</name>
+  <text><![CDATA[<?xml version="1.0" encoding="UTF-8" ?>
+<haspformat root="hasp_info">
+    <hasp>
+        <element name="id" /> 
+        <element name="type" /> 
+        <element name="configuration" /> 
+        <element name="clone_protected" /> 
+        <element name="disabled" /> 
+        <element name="version" /> 
+        <element name="hw_version" /> 
+        <element name="updatecounter" /> 
+        <element name="production_date" /> 
+        <element name="detachable" /> 
+        <element name="attached" /> 
+        <element name="recipient" /> 
+        <element name="rehost" /> 
+        <element name="key_model" /> 
+        <element name="key_type" /> 
+        <element name="form_factor" /> 
+        <element name="response_time" /> 
+        <element name="hw_platform" /> 
+        <element name="driverless" /> 
+        <element name="hasp_enabled" /> 
+        <element name="fingerprint_change" />
+        <element name="vclock_enabled" />
+    </hasp>
+</haspformat>]]></text>
+ </template>
+</scope_templates>

@@ -1,0 +1,42 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hasp_demo_vs2015", "hasp_demo_vs2015.csproj", "{849CF15C-D39B-46CA-B664-8D6A2B983F34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hasp_detach_vs2015", "detach\hasp_detach_vs2015.csproj", "{5CFE7F0C-683E-4BFF-9857-C68906B0AC02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hasp_rehost_vs2015", "rehost\hasp_rehost_vs2015.csproj", "{73C51503-3D23-4078-A331-463F7E2DE7F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdminApiSample_vs2015", "integrated_admin\AdminApiSample_vs2015.csproj", "{90F8337E-9358-4E26-958F-CFC555879A0B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{849CF15C-D39B-46CA-B664-8D6A2B983F34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{849CF15C-D39B-46CA-B664-8D6A2B983F34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{849CF15C-D39B-46CA-B664-8D6A2B983F34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{849CF15C-D39B-46CA-B664-8D6A2B983F34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CFE7F0C-683E-4BFF-9857-C68906B0AC02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CFE7F0C-683E-4BFF-9857-C68906B0AC02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CFE7F0C-683E-4BFF-9857-C68906B0AC02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CFE7F0C-683E-4BFF-9857-C68906B0AC02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73C51503-3D23-4078-A331-463F7E2DE7F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73C51503-3D23-4078-A331-463F7E2DE7F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73C51503-3D23-4078-A331-463F7E2DE7F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73C51503-3D23-4078-A331-463F7E2DE7F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90F8337E-9358-4E26-958F-CFC555879A0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90F8337E-9358-4E26-958F-CFC555879A0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90F8337E-9358-4E26-958F-CFC555879A0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90F8337E-9358-4E26-958F-CFC555879A0B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(DPCodeReviewSolutionGUID) = preSolution
+		DPCodeReviewSolutionGUID = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+EndGlobal

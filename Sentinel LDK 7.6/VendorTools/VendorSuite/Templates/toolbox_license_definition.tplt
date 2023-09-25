@@ -1,0 +1,299 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<scope_templates>
+ <template>
+  <name>New Product</name>
+  <text><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+ <sentinel_ldk:license schema_version="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sentinel_ldk="http://www.safenet-inc.com/sentinelldk">
+   <!-- You can specify the acknowledgement request flag. Possible values are "Yes" or "No"-->
+   <acknowledgement_request>Yes</acknowledgement_request>
+   <!-- You can specify the enforcement type. Possible values are "HL", "SL-AdminMode", "SL-UserMode", "HL or SL-AdminMode" or "HL or SL-AdminMode or SL-UserMode"-->
+   <enforcement_type>HL</enforcement_type>
+   <product>
+      <id>123</id>
+      <name>Sample Product 123</name>
+      <feature>
+         <id>1000</id>
+         <name>Sample Feature 1000</name>
+         <license_properties>
+            <!-- Only one of the below license model can be specified. -->
+            <perpetual/>
+            <!-- <expiration_date>2011-12-31</expiration_date> -->
+            <!-- <execution_count>30</execution_count> -->
+            <!-- <days_to_expiration>90</days_to_expiration> -->
+            <!-- You can specify the remote desktop accessibility flag. Possible values are "Yes" or "No" --> 
+            <remote_desktop_access>Yes</remote_desktop_access>
+         </license_properties>
+      </feature>
+   </product>
+   <memory>
+      <ro_memory_segment>
+         <offset>0</offset>
+         <content>U2FtcGxlIFJlYWQgT25seSBNZW1vcnk=</content>
+      </ro_memory_segment>
+      <!-- Add as many read only memory segment as many you want -->
+      <rw_memory_segment>
+         <offset>24</offset>
+         <content>U2FtcGxlIFJlYWQgV3JpdGUgTWVtb3J5</content>
+      </rw_memory_segment>
+      <!-- Add as many read write memory segment as many you want -->
+   </memory>
+ </sentinel_ldk:license>]]></text>
+ </template>
+ <template>
+  <name>New Product with Concurrency Support</name>
+  <text><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+ <sentinel_ldk:license schema_version="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sentinel_ldk="http://www.safenet-inc.com/sentinelldk">
+   <enforcement_type>HL</enforcement_type>
+   <product>
+      <id>123</id>
+      <name>Sample Product 123</name>
+      <feature>
+         <id>1000</id>
+         <name>Sample Feature 1000</name>
+         <license_properties>            
+            <perpetual/>
+            <concurrency>
+               <!-- "Unlimited" means unlimited count -->
+               <count>30</count>
+               <!-- "Per Station", "Per Login", "Per Process" are the allowed values for count criteria -->
+               <count_criteria>Per Station</count_criteria>
+               <!-- Possible values are "Yes" or "No" -->
+               <network_access>Yes</network_access>
+            </concurrency>
+            <!-- You can specify the remote desktop accessibility flag. Possible values are "Yes" or "No" --> 
+            <remote_desktop_access>Yes</remote_desktop_access>
+         </license_properties>
+      </feature>
+   </product>
+ </sentinel_ldk:license>]]></text>
+ </template>
+ <template>
+  <name>New Product with Multiple Features</name>
+  <text><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+ <sentinel_ldk:license schema_version="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sentinel_ldk="http://www.safenet-inc.com/sentinelldk">
+   <enforcement_type>HL</enforcement_type>
+   <product>
+      <id>123</id>
+      <name>Sample Product 123</name>
+      <!-- First feature -->
+      <feature>
+         <id>1000</id>
+         <name>Sample Feature 1000</name>
+         <license_properties>            
+            <perpetual/>
+         </license_properties>
+      </feature>
+      <!-- Second feature -->
+      <feature>
+         <id>1001</id>
+         <name>Sample Feature 1001</name>
+         <license_properties>            
+            <perpetual/>
+            <!-- You can specify the remote desktop accessibility flag. Possible values are "Yes" or "No" --> 
+            <remote_desktop_access>Yes</remote_desktop_access>
+         </license_properties>
+      </feature>
+      <!-- You can specify as many features as desired in a product; the only restriction is the capacity of the protection key -->
+   </product>
+ </sentinel_ldk:license>]]></text>
+ </template>
+  <template>
+  <name>New Multiple Products</name>
+  <text><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+ <sentinel_ldk:license schema_version="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sentinel_ldk="http://www.safenet-inc.com/sentinelldk">
+   <!-- You can specify the enforcement type. Possible values are "HL", "SL-AdminMode", "SL-UserMode", "HL or SL-AdminMode" or "HL or SL-AdminMode or SL-UserMode"-->
+   <enforcement_type>HL</enforcement_type>
+   <!-- First product -->   
+   <product>
+      <id>123</id>
+      <name>Sample Product 123</name>
+      <feature>
+         <id>1000</id>
+         <name>Sample Feature 1000</name>
+         <license_properties>
+            <!-- Only one of the below license model can be specified. -->
+            <perpetual/>
+            <!-- <expiration_date>2011-12-31</expiration_date> -->
+            <!-- <execution_count>30</execution_count> -->
+            <!-- <days_to_expiration>90</days_to_expiration> -->
+            <!-- You can specify the remote desktop accessibility flag. Possible values are "Yes" or "No" --> 
+            <remote_desktop_access>Yes</remote_desktop_access>
+         </license_properties>
+      </feature>
+   </product>
+   <!-- Second product -->   
+   <product>
+      <id>200</id>
+      <name>Sample Product 200</name>
+      <feature>
+         <id>1001</id>
+         <name>Sample Feature 1001</name>
+         <license_properties>            
+            <perpetual/>
+         </license_properties>
+      </feature>
+   </product>
+   <!-- You can specify as many products as desired in a license; the only restriction is the capacity of the protection key -->
+   <memory>
+      <ro_memory_segment>
+         <offset>0</offset>
+         <content>U2FtcGxlIFJlYWQgT25seSBNZW1vcnk=</content>
+      </ro_memory_segment>
+      <!-- Add as many read only memory segment as many you want -->
+      <rw_memory_segment>
+         <offset>24</offset>
+         <content>U2FtcGxlIFJlYWQgV3JpdGUgTWVtb3J5</content>
+      </rw_memory_segment>
+      <!-- Add as many read write memory segment as many you want -->
+   </memory>
+ </sentinel_ldk:license>]]></text>
+ </template>
+ <template>
+  <name>Cancel Specified Product</name>
+  <text><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+ <sentinel_ldk:license schema_version="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sentinel_ldk="http://www.safenet-inc.com/sentinelldk">
+   <enforcement_type>HL</enforcement_type>
+   <!-- Cancel following product -->
+   <product action="cancel">
+      <id>123</id>
+   </product>
+ </sentinel_ldk:license>]]></text>
+ </template>
+ <template>
+  <name>Cancel Specified Feature</name>
+  <text><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+ <sentinel_ldk:license schema_version="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sentinel_ldk="http://www.safenet-inc.com/sentinelldk">
+   <enforcement_type>HL</enforcement_type>
+   <product>
+      <id>123</id>
+      <!-- Cancel following feature -->
+      <feature action="cancel">
+         <id>1000</id>
+      </feature>
+   </product>
+ </sentinel_ldk:license>]]></text>
+ </template>
+ <template>
+  <name>Modify Expiration Date</name>
+  <text><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+ <sentinel_ldk:license schema_version="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sentinel_ldk="http://www.safenet-inc.com/sentinelldk">
+   <enforcement_type>HL</enforcement_type>
+   <product>
+      <id>123</id>
+      <name>Sample Product 123</name>
+      <feature>
+         <id>1000</id>
+         <name>Sample Feature 1000</name>
+         <license_properties>
+            <!-- "sub" action will reduce the number of days from the base expiration date -->
+            <expiration_date action="add">90</expiration_date>
+         </license_properties>
+      </feature>
+   </product>
+ </sentinel_ldk:license>]]></text>
+ </template>
+ <template>
+  <name>Modify Execution Count</name>
+  <text><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+ <sentinel_ldk:license schema_version="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sentinel_ldk="http://www.safenet-inc.com/sentinelldk">
+   <enforcement_type>HL</enforcement_type>
+   <product>
+      <id>123</id>
+      <name>Sample Product 123</name>
+      <feature>
+         <id>1000</id>
+         <name>Sample Feature 1000</name>
+         <license_properties>
+            <!-- "sub" action will revoke execution count from the base execution count -->
+            <execution_count action="add">99</execution_count>
+         </license_properties>
+      </feature>
+   </product>
+ </sentinel_ldk:license>]]></text>
+ </template>
+ <template>
+  <name>Modify Remote Desktop Accessibility</name>
+  <text><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+ <sentinel_ldk:license schema_version="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sentinel_ldk="http://www.safenet-inc.com/sentinelldk">
+   <enforcement_type>HL</enforcement_type>
+   <product>
+      <id>123</id>
+      <name>Sample Product 123</name>
+      <feature>
+         <id>1000</id>
+         <name>Sample Feature 1000</name>
+         <license_properties>
+            <!-- Possible values are "Yes" or "No" -->
+            <remote_desktop_access>No</remote_desktop_access>
+         </license_properties>
+      </feature>
+   </product>
+ </sentinel_ldk:license>]]></text>
+ </template>
+ <template>
+  <name>Modify Virtual Machine Accessibility</name>
+  <text><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+ <sentinel_ldk:license schema_version="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sentinel_ldk="http://www.safenet-inc.com/sentinelldk"> 
+   <enforcement_type>SL-AdminMode</enforcement_type>
+   <product>
+      <id>123</id>
+      <name>Sample Product 123</name>
+      <feature>
+         <id>1000</id>
+         <name>Sample Feature 1000</name>
+         <license_properties>
+            <!-- Possible values are "Yes" or "No" -->
+            <virtual_machine_access>No</virtual_machine_access>
+         </license_properties>
+      </feature>
+   </product>
+ </sentinel_ldk:license>]]></text>
+ </template>
+ <template>
+  <name>Modify Concurrency Information</name>
+  <text><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+ <sentinel_ldk:license schema_version="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sentinel_ldk="http://www.safenet-inc.com/sentinelldk">
+   <enforcement_type>HL</enforcement_type>
+   <product>
+      <id>123</id>
+      <name>Sample Product 123</name>
+      <feature>
+         <id>1000</id>
+         <name>Sample Feature 1000</name>
+         <license_properties>
+            <perpetual/>
+            <concurrency>
+               <!-- Possible action can be "add" or "sub", no action means set the new value -->
+               <count action="add">15</count>
+               <!-- no action means setting the new value -->
+               <count_criteria>Per Login</count_criteria>
+               <!-- no action means setting the new value -->
+               <network_access>No</network_access>
+            </concurrency>
+         </license_properties>
+      </feature>
+   </product>
+ </sentinel_ldk:license>]]></text>
+ </template>
+ <template>
+  <name>Disable Rehosting</name>
+  <text><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+ <sentinel_ldk:license schema_version="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sentinel_ldk="http://www.safenet-inc.com/sentinelldk">
+   <enforcement_type>SL-AdminMode</enforcement_type>
+   <!-- Disable Rehosting -->   
+   <rehost action="cancel"></rehost>
+ </sentinel_ldk:license>]]></text>
+ </template>
+ <template>
+  <name>Upgrade key to driverless</name>
+  <text><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+ <sentinel_ldk:license schema_version="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sentinel_ldk="http://www.safenet-inc.com/sentinelldk">
+   <enforcement_type>HL</enforcement_type>
+   <upgrade_to_driverless>Yes</upgrade_to_driverless>
+ </sentinel_ldk:license>]]></text>
+ </template>
+ <template>
+  <name>Blank Definition</name>
+  <text><![CDATA[]]></text>
+ </template>
+</scope_templates>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\3Dmarker\Git\Dongle\TimePeriodTest\xerces-c-3.2.3\build\CMakeFiles\ac3a9d566e762c5a0ddcf9777dc03c69\createdocs.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\3Dmarker\Git\Dongle\TimePeriodTest\xerces-c-3.2.3\doc\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\3Dmarker\Git\Dongle\TimePeriodTest\xerces-c-3.2.3\build\doc\CMakeFiles\createdocs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{93260C85-F78F-3A96-8337-BFF42DE50110}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<license xmlns="http://www.safenet-inc.com/sentinelldk">
+	<enforcement_type xmlns="">HL</enforcement_type>
+	<product xmlns="">
+		<id>1</id>
+		<name>P1</name>
+		<feature>
+			<id>1</id>
+			<name>F1</name>
+			<license_properties>
+				<expiration_date>
+					2022-01-12
+				</expiration_date>
+				<remote_desktop_access>Yes</remote_desktop_access>
+			</license_properties>
+		</feature>
+	</product>
+	<product xmlns="">
+		<id>2</id>
+		<name>P2</name>
+		<feature>
+			<id>1</id>
+			<name>F2</name>
+			<license_properties>
+				<perpetual/>
+				<remote_desktop_access>No</remote_desktop_access>
+			</license_properties>
+		</feature>
+	</product>
+</license>

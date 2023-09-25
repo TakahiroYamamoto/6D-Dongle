@@ -1,0 +1,10 @@
+
+
+LIBRARY 	haspds_msi
+
+
+EXPORTS
+	HaspdsMsiInst
+	HaspdsMsiRepair
+	HaspdsMsiUninst
+	
